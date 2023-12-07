@@ -32,9 +32,11 @@ docker exec -it <ID_del_Contenedor> /bin/bash
 ```
 
 ### 5. Descargar del repositorio de yocto y configurar
-Se descarga mediante la instrucción debtro de la carpeta output
+Se descarga mediante la instrucción dentro de la carpeta output
 
 ```bash
+mkdir output
+
 cd output
 
 git clone git://git.yoctoproject.org/poky -b kirkstone
